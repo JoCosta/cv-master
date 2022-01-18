@@ -387,12 +387,9 @@
         });
     };
 
-      /* Contact Form
+      /* CV Download
      * ------------------------------------------------------ */
    
-
-    var url = "documents/Modern_CV.docx";
-    $('.cv-download').attr({target: '_blank', href : url});
 
    /* Back to Top
     * ------------------------------------------------------ */
