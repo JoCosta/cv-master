@@ -128,7 +128,7 @@
     ================================================== -->
     <section id="about" class="s-about target-section">
         
-        <div class="row narrow section-intro">
+        <div class="row narrow section-intro  has-bottom-sep">
             <div class="col-full text-center">
                 <h3>About</h3>
                 <h1>More About Me</h1>
@@ -783,6 +783,7 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
+               
                 <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
     
@@ -799,7 +800,7 @@
                         <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary"  onclick="sendMail()">Submit</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
