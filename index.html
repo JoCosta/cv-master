@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -52,7 +52,8 @@
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#timeline" title="works">Works</a></li>
+                <!-- <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li> -->
                 <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -128,7 +129,7 @@
     ================================================== -->
     <section id="about" class="s-about target-section">
         
-        <div class="row narrow section-intro  has-bottom-sep">
+        <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
                 <h3>About</h3>
                 <h1>More About Me</h1>
@@ -198,18 +199,15 @@
             </div>
 
         </div> <!-- end about-content buttons -->
-    </section>
 
-        <section id="works" class="row s-works target-section">
-            
-            <div class="row narrow section-intro">
-                <div class="col-full text-center">
-                    <h3>WORK</h3>
-                    <h1>My Work Experience.</h1>
-                    
-                </div>
+       
+   
+        <div id="timeline" class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
             </div>
-          
+
             <div class="col-six tab-full left">
                 <div class="timeline">
 
@@ -317,8 +315,9 @@
                 </div> <!-- end timeline -->
             </div> <!-- end right -->
 
-        </section> <!-- end works-content timeline -->
+        </div> <!-- end about-content timeline -->
 
+    </section> <!-- end about -->
     
 
     <!-- blog
@@ -765,10 +764,9 @@
 
 
 
-    <!-- contacts
+    <!-- s-stats
     ================================================== -->
-    <section id="contact" class="s-contact target-section" src="https://smtpjs.com/v3/smtp.js">
-        
+    <section id="contact" class="s-contact target-section">
 
         <div class="overlay"></div>
 
@@ -783,7 +781,6 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-               
                 <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
     
@@ -800,7 +797,7 @@
                         <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary"  onclick="sendMail()">Submit</button>
+                        <button class="full-width btn--primary">Submit</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -951,7 +948,6 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/sendEmail.js"></script>
 
 </body>
 
