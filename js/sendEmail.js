@@ -7,9 +7,8 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'marlon.trotman@hotmail.co.uk';
 
-    
-    if($_POST) {
-    
+function sendEmail() {
+
         $name = trim(stripslashes($_POST['contactName']));
         $email = trim(stripslashes($_POST['contactEmail']));
         $subject = trim(stripslashes($_POST['contactSubject']));
@@ -69,7 +68,7 @@ $siteOwnersEmail = 'marlon.trotman@hotmail.co.uk';
         } //# end if - there was a validation error
     
    
-function sendEmail() {
+
         Email.send({
           Host: "smtp.gmail.com",
           To: $siteOwnersEmail,
