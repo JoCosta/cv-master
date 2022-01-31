@@ -2220,6 +2220,7 @@ html.no-csstransitions .home-content__main {
  * ## timeline - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
 
+    
 .timeline {
     position: relative;
     text-align: left;
