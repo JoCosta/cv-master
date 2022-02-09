@@ -2354,8 +2354,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-    padding-top: 15rem;
-    padding-bottom: 15.6rem;
+    padding-top: 9rem;
+    padding-bottom: 9.6rem;
     background-color: #f1f1f1;
     position: relative;
 }
@@ -3047,7 +3047,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 15.2rem;
     padding-bottom: 15rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     position: relative;
 
 }
@@ -3058,7 +3058,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .30;
+    opacity: .20;
     background-color: #070606;
 }
 
